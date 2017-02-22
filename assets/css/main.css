@@ -24,17 +24,19 @@ html {
 .scroll {
   position: fixed;
   bottom: 0;
-  width: 3500px; }
+  width: 6000px; }
 
 /* 2. Content ================================= */
 .skyline img {
-  z-index: 1; }
+  z-index: 1;
+  opacity: 0.7; }
 
 .brick img {
   width: 100%;
   top: 100px;
-  height: 550px;
-  z-index: 500; }
+  height: 500px;
+  z-index: 500;
+  opacity: 0.94; }
 
 header {
   height: 200px;
@@ -77,20 +79,72 @@ nav li {
   position: relative;
   left: 29%;
   transform: translateX(-50%);
-  background-image: url("../img/momo.png");
+  background-image: url("../img/momo-fg.png");
   background-size: cover;
   max-width: 600px;
   height: auto;
   cursor: url("../img/brush-mouse.png") 53 53, crosshair; }
+  #momo:hover {
+    background-image: url("../img/momo.png"); }
 
 #bird {
   position: relative;
   left: 30%;
   transform: translateX(-50%);
-  background-image: url("../img/bird-john.png");
+  background-image: url("../img/bird-john-fg.png");
   background-size: cover;
   max-width: 600px;
   height: auto;
   cursor: url("../img/brush-mouse.png") 53 53, crosshair; }
+  #bird:hover {
+    background-image: url("../img/bird-john.png"); }
+
+#erny {
+  position: relative;
+  left: 31%;
+  transform: translateX(-50%);
+  background-image: url("../img/erny.png");
+  background-size: cover;
+  max-width: 600px;
+  height: auto;
+  cursor: url("../img/brush-mouse.png") 53 53, crosshair; }
+  #erny:hover {
+    background-image: url("../img/ernest.png"); }
+
+#ismo {
+  position: relative;
+  left: 32%;
+  transform: translateX(-50%);
+  background-image: url("../img/ism-brick.png");
+  background-size: cover;
+  max-width: 600px;
+  height: auto;
+  cursor: url("../img/brush-mouse.png") 53 53, crosshair; }
+  #ismo:hover {
+    background-image: url("../img/ismo.png"); }
+
+#hand {
+  position: relative;
+  left: 33%;
+  transform: translateX(-50%);
+  background-image: url("../img/hand-fg.png");
+  background-size: cover;
+  max-width: 600px;
+  height: auto;
+  cursor: url("../img/brush-mouse.png") 53 53, crosshair; }
+  #hand:hover {
+    background-image: url("../img/hand.png"); }
+
+#molly {
+  position: relative;
+  left: 34%;
+  transform: translateX(-50%);
+  background-image: url("../img/molly-brick.png");
+  background-size: cover;
+  max-width: 600px;
+  height: auto;
+  cursor: url("../img/brush-mouse.png") 53 53, crosshair; }
+  #molly:hover {
+    background-image: url("../img/molly.png"); }
 
 /*# sourceMappingURL=main.css.map */
